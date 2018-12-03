@@ -63,6 +63,16 @@ a:hover {
 
 /* ********** Bootstrap Styles ********** */
 
+.bg-dark {
+    background-color: var(--second-color) !important;
+}
+
+.navbar-brand img {
+    padding: var(--logo-spacing);
+    width: auto;
+    height: var(--logo-height);
+}
+
 
 /* ********** My Styles ********** */
 
