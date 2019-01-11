@@ -122,6 +122,14 @@ a.bg-success:hover {
     color: var(--action-color) !important;
 }
 
+.card a {
+    color: var(--alternate-color);
+}
+
+.card a:hover {
+    color: var(--alternate-modal-color);
+}
+
 
 /* ********** My Styles ********** */
 
@@ -132,6 +140,10 @@ a.bg-success:hover {
     background-color: rgb(108, 130, 145);
     background-image: linear-gradient(135deg, rgba(47, 145, 224, .91), rgba(7, 31, 51, .97) 79%);
     background-image: linear-gradient(131deg, rgba(28, 118, 173, .92), rgba(83, 184, 152, 1));
+}
+
+.Services img {
+    background-color: var(--alternate-color);
 }
 
 .u-fullScreen {
