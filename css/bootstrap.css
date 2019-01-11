@@ -42,6 +42,12 @@ html {
 }
 
 body {
+    position: relative;
+    padding-top: var(--logo-height);
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background-color: inherit;
     overflow-x: hidden;
 }
 
@@ -53,6 +59,14 @@ a {
 
 a:hover {
     color: var(--link-hover-color);
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2.5rem;
 }
 
 ::selection {
@@ -130,12 +144,18 @@ a.bg-success:hover {
     color: var(--alternate-modal-color);
 }
 
+.carousel {
+    margin: auto;
+    max-width: 500px;
+    height: auto;
+}
+
 
 /* ********** My Styles ********** */
 
 .HeroImage {
-    padding-top: var(--header-height);
-    min-height: calc(100vh + var(--logo-height));
+    padding-top: 0;
+    min-height: calc(100vh - var(--logo-height));
     background-size: auto;
     background-color: rgb(108, 130, 145);
     background-image: linear-gradient(135deg, rgba(47, 145, 224, .91), rgba(7, 31, 51, .97) 79%);
@@ -143,6 +163,16 @@ a.bg-success:hover {
 }
 
 .Services img {
+    background-color: var(--alternate-color);
+}
+
+.ResponsiveSites figure {
+    margin: 0;
+    text-align: center;
+}
+
+.ResponsiveSites figure img {
+    padding: .5rem;
     background-color: var(--alternate-color);
 }
 
