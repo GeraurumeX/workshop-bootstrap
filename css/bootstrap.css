@@ -188,6 +188,11 @@ a.bg-success:hover {
     background-color: var(--alternate-color);
 }
 
+.WorkFlow-steps sup {
+    font-size: 1rem;
+    color: var(--main-color);
+}
+
 .u-fullScreen {
     width: 100%;
     min-height: 100vh;
