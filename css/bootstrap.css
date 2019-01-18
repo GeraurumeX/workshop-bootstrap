@@ -144,12 +144,6 @@ a.bg-success:hover {
     color: var(--alternate-modal-color);
 }
 
-.carousel {
-    margin: auto;
-    max-width: 500px;
-    height: auto;
-}
-
 .card-img-overlay {
     background-color: var(--second-modal-color);
 }
@@ -160,6 +154,25 @@ a.bg-success:hover {
 
 .card-text a:hover {
     color: var(--action-modal-color);
+}
+
+.form-control {
+    border-color: var(--second-color);
+}
+
+.form-control:focus {
+    border-color: var(--second-color);
+    box-shadow: 0 0 0 0.2rem var(--main-modal-color);
+}
+
+.form-group label {
+    color: var(--main-color);
+    border-color: var(--second-color);
+}
+
+.form-group .btn {
+    background-color: var(--main-color) !important;
+    font-weight: bold;
 }
 
 
@@ -176,6 +189,12 @@ a.bg-success:hover {
 
 .Services img {
     background-color: var(--alternate-color);
+}
+
+.Website .carousel {
+    margin: auto;
+    max-width: 500px;
+    height: auto;
 }
 
 .ResponsiveSites figure {
@@ -207,6 +226,12 @@ a.bg-success:hover {
 .SinglePage>.u-fullScreen,
 .MultiPage>.u-fullScreen {
     background-color: var(--bg-modal-color);
+}
+
+.AboutInfo {
+    padding: 1rem;
+    font-size: 150%;
+    background-color: var(--second-modal-color);
 }
 
 .u-fullScreen {
