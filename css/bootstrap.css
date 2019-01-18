@@ -193,6 +193,22 @@ a.bg-success:hover {
     color: var(--main-color);
 }
 
+.SinglePage,
+.MultiPage {
+    background-image: url('../img/site-singlepage.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.MultiPage {
+    background-image: url('../img/site-multipage.jpg');
+}
+
+.SinglePage>.u-fullScreen,
+.MultiPage>.u-fullScreen {
+    background-color: var(--bg-modal-color);
+}
+
 .u-fullScreen {
     width: 100%;
     min-height: 100vh;
