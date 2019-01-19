@@ -234,6 +234,10 @@ a.bg-success:hover {
     background-color: var(--second-modal-color);
 }
 
+.Footer {
+    background-color: var(--second-color);
+}
+
 .u-fullScreen {
     width: 100%;
     min-height: 100vh;
